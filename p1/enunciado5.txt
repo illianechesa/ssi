@@ -1,0 +1,32 @@
+## Certificados y HTTPS ##
+
+Si ha llegado hasta aqui es porque sabe usar los algoritmos
+ simetricos y asimetricos de openssl.
+ Ahora es momento de hacer certificados.
+
+Con una clave privada puede generar un certificado que 
+contenga la clave publica y algunos datos más identificando 
+un servidor web seguro. 
+Aprenda a generar una peticion de certificado x509 
+y a firmarlo con una clave privada. 
+
+Pruebe las herramientas para establecer y 
+recibir conexiones SSL y como puede usarlas para 
+conectarse o simular un servidor web seguro.
+
+Con ese conocimiento puede realizar la parte final de esta practica.
+Configure un apache para servir una pagina usando HTTPS. 
+Para ello debera crear una clave privada y 
+el correspondiente certificado para el servidor.
+
+En la segunda sesión de practicas se le pedira demostrar:
+
+- Hacer un hash
+- Cifrar y descifrar algo con un cifrador simetrico
+- Firmar y verificar algo con un cifrador simetrico
+- Tener un certificado
+- Hacer una conexion a un servidor seguro manualmente con openssl y ver el certificado
+- Mostrar un servidor web seguro
+
+
+

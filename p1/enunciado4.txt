@@ -1,0 +1,25 @@
+## Criptografía asimetrica ##
+
+Si esta leyendo esto, ya domina la criptografía simetrica 
+y los hashes con openssl.
+
+Descubra como manejar criptografia asimetrica. 
+Deberia ser capaz de crear una clave privada y 
+extraer de ella la clave publica
+ asi como leer claves privadas o publicas 
+ y extraer sus parametros. Se recomienda probar con
+  RSA aunque hay varios algoritmos de tipo asimetrico
+   como DSA o Diffie-Hellman.
+
+Una vez controladas las claves deberia poder hacer las
+ operaciones básicas, cifrar con una clave publica y 
+ descifrar lo equivalente con la clave privada. 
+ O firmar y verificar firmas.
+
+La siguiente parte de las instrucciones se ha
+ cifrado con un cifrador BLOWFISH y 
+ la clave usada se ha cifrado con la 
+ clave publica correspondiente a 
+ la clave privada `unclaveprivada.pem`. 
+ Descífrelo para seguir
+

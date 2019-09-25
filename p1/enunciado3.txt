@@ -1,0 +1,18 @@
+## Aprendiendo a usar hashes criptograficos ##
+
+Si ha descifrado esto, ya sabe cifrar y descifrar con cifradores 
+simetricos usando OpenSSL. La siguiente area que deberia dominar 
+es la utilizacion de hashes criptograficos. 
+
+Aprenda a calcular los hashes criptograficos mas habituales 
+MD5, SHA-1, SHA-2… de ficheros y de cadenas. 
+Puede incluso compararlos con los que puede calcular en 
+lenguajes conocidos como PHP o Java para comprobar que 
+son el mismo algoritmo.
+
+Cuando lo consiga podra descifrar la siguiente parte 
+de la práctica `enunciado4.oculto` que se ha cifrado 
+en AES256 en modo cipher block chaining usando 
+como passphrase MD5('Contraseña')
+
+

@@ -1,0 +1,25 @@
+## Aprendiendo a usar cifradores simetricos ##
+
+Si ha descifrado esto, ya sabe usar `openssl enc -base64` para
+cifrar y descifrar base64, que en realidad no es un cifrado muy
+ seguro porque no usa clave. 
+ Es mas una transformacion o codificacion a un formato más 
+ comodo para poder enviar datos binarios con solo caracteres 
+ imprimibles.
+
+El siguiente paso que deberia conseguir es aprender a cifrar 
+y descifrar con cifradores simetricos como DES, AES, 
+IDEA, BLOWFISH
+
+Deberia saber como cifrar y descifrar ficheros utilizando
+ claves y criptografía simetrica. De paso tambien deberia 
+ mirar las diferencias entre clave y passphrase.
+  Y que significan conceptos como iv y salt que apareceran 
+  cuando utilice openssl.
+
+Para progresar a partir de aqui puede descifrar el
+ siguiente enunciado que esta cifrado en DES con esta clave 
+ `0123456789012345` y sin usar ningun iv,
+  asi que si necesita uno igual esta usando
+   el algoritmo que no es
+
