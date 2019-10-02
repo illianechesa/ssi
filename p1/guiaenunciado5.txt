@@ -1,0 +1,45 @@
+﻿#### CONFIGURACION DEL SERVIDOR HTTPS CON CERTIFICADOS OPENSSL ####
+
+# Generar clave privada
+# Generar clave publica a partir de la privada
+# Generamos un certificado a partir de la clave privada
+# Generamos el certificado x509 SSL
+# Configurar el servidor apache -> PC Personal
+(https://www.nanotutoriales.com/instalacion-de-apache-http-server)
+# Habilitar el módulo de SSL en Apache:
+# Editamos el archivo vhosts
+
+#### CIFRADO Y DESCIFRADO SIMETRICO DE UN TEXTO ####
+
+
+#### CONECTARSE DE FORMA SEGURA A UN SERVIDOR ####
+
+************************************************************************************
+#### CONFIGURACION DEL SERVIDOR HTTPS CON CERTIFICADOS OPENSSL ####
+
+## Primer Paso:
+
+        #Activamos el modulo SSL
+
+        # Reiniciamos el servidor apache
+
+## Segundo Paso:
+
+        #Crear un subdirectorio dentro de carpetas de configuración de apache para
+colocar los certs
+
+        #Crear la llave y el certificado en una misma instrucción
+
+## Tercer Paso:
+        #Configurar el archivo default-ssl.conf que contiene la configuracion de SSL
+predeterminada
+                
+       
+## Cuarto Paso:
+        #Habilitamos el SSL una vez configurado el host virtual
+              
+        #Reiniciar apache
+              
+## Quinto Paso:
+        #Comprobar la configuracion
+               
