@@ -1,11 +1,42 @@
 ﻿#### CONFIGURACION DEL SERVIDOR HTTPS CON CERTIFICADOS OPENSSL ####
 
-# Generar clave privada
-# Generar clave publica a partir de la privada
-# Generamos un certificado a partir de la clave privada
-# Generamos el certificado x509 SSL
+- # Generar clave privada
+> ssh-keygen -f key5 (passphrase ssi29)
+- # Generar clave publica a partir de la privada
+- # Generamos un certificado a partir de la clave privada
+- # Generamos el certificado x509 SSL
+> openssl req -new -x509 -key key5.pem -out cert5.pemEnter pass phrase for key5.pem:
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) []:ES
+State or Province Name (full name) []:Navarra
+Locality Name (eg, city) []:Pamplona
+Organization Name (eg, company) []:UpNa
+Organizational Unit Name (eg, section) []:SSI           
+Common Name (eg, fully qualified host name) []:SSI
+Email Address []:ospino.p@gmail.com
+
+
 # Configurar el servidor apache -> PC Personal
 (https://www.nanotutoriales.com/instalacion-de-apache-http-server)
+
+
+> sudo apt-get update
+> sudo apt-get install apache2
+> sudo nano /etc/apache2/apache2.conf
+- Añadir linea `ServerName localhost:80`: nombre del servidor.
+> sudo nano /etc/apache2/sites-available/default-ssl.conf # Deshabilitar el listado de directorios
+- Aqui no hay nada
+- systemctl restart apache2 
+- sudo a2enmod ssl
+- sudo a2ensite default-ssl.conf
+
+
 # Habilitar el módulo de SSL en Apache:
 # Editamos el archivo vhosts
 
@@ -17,29 +48,35 @@
 ************************************************************************************
 #### CONFIGURACION DEL SERVIDOR HTTPS CON CERTIFICADOS OPENSSL ####
 
+
 ## Primer Paso:
 
         #Activamos el modulo SSL
+                - sudo a2enmod ssl
 
         # Reiniciamos el servidor apache
+                - systemctl restart apache2 
 
 ## Segundo Paso:
 
         #Crear un subdirectorio dentro de carpetas de configuración de apache para
 colocar los certs
+                - mkdir certs   #Creado dentro de apache2
 
         #Crear la llave y el certificado en una misma instrucción
+                - openssl req –new –newkey rsa:2048 –nodes –keyout server.key –out server.csr
 
 ## Tercer Paso:
         #Configurar el archivo default-ssl.conf que contiene la configuracion de SSL
-predeterminada
-                
+predeterminada.
+               #Configurado todo correctamente 
        
 ## Cuarto Paso:
         #Habilitamos el SSL una vez configurado el host virtual
               
         #Reiniciar apache
-              
+                - systemctl restart apache2 
+
 ## Quinto Paso:
         #Comprobar la configuracion
                
