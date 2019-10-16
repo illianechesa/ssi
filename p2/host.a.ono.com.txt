@@ -1,0 +1,19 @@
+Trying "www.ono.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14990
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 2, ADDITIONAL: 2
+
+;; QUESTION SECTION:
+;www.ono.com.			IN	ANY
+
+;; ANSWER SECTION:
+www.ono.com.		263	IN	A	62.42.230.17
+
+;; AUTHORITY SECTION:
+ono.com.		43	IN	NS	dns01.ono.com.
+ono.com.		43	IN	NS	dns02.ono.com.
+
+;; ADDITIONAL SECTION:
+dns01.ono.com.		43	IN	A	62.42.230.135
+dns02.ono.com.		43	IN	A	62.42.230.136
+
+Received 117 bytes from 130.206.158.253#53 in 8 ms

@@ -1,0 +1,6 @@
+OrgAbuseEmail:  abuse@ripe.net
+OrgTechEmail:  hostmaster@ripe.net
+% Abuse contact for '130.206.0.0 - 130.206.255.255' is 'seguridad@rediris.es'
+remarks:        mail spam reports: seguridad@rediris.es
+remarks:        security incidents: seguridad@rediris.es
+abuse-mailbox:  seguridad@rediris.es

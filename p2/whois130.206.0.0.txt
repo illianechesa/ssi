@@ -1,0 +1,250 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.arin.net
+
+inetnum:      130.0.0.0 - 130.255.255.255
+organisation: Administered by ARIN
+status:       LEGACY
+
+whois:        whois.arin.net
+
+changed:      1993-05
+source:       IANA
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2019, American Registry for Internet Numbers, Ltd.
+#
+
+
+#
+# Query terms are ambiguous.  The query is assumed to be:
+#     "r + < 130.206.0.0/16"
+#
+# Use "?" to get help.
+#
+
+
+# start
+
+NetRange:       130.0.0.0 - 130.255.255.255
+CIDR:           130.0.0.0/8
+NetName:        NET130
+NetHandle:      NET-130-0-0-0-0
+Parent:          ()
+NetType:        Early Registrations, Maintained by ARIN
+OriginAS:       
+Organization:   Various Registries (Maintained by ARIN) (VR-ARIN)
+RegDate:        1993-04-30
+Updated:        2010-06-30
+Ref:            https://rdap.arin.net/registry/ip/130.0.0.0
+
+
+OrgName:        Various Registries (Maintained by ARIN)
+OrgId:          VR-ARIN
+Address:        PO Box 232290
+City:           Centreville
+StateProv:      VA
+PostalCode:     20120
+Country:        US
+RegDate:        1993-04-30
+Updated:        2018-01-08
+Comment:        Address space was assigned by the InterNIC regardless of
+Comment:        geographic region.  The registrations are now being maintained
+Comment:        by various registries, and the in-addr.arpa delegations are
+Comment:        being maintained by ARIN.
+Ref:            https://rdap.arin.net/registry/entity/VR-ARIN
+
+
+OrgAbuseHandle: CKN23-ARIN
+OrgAbuseName:   No, Contact Known
+OrgAbusePhone:  +1-800-555-1234 
+OrgAbuseEmail:  nobody@example.com
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/CKN23-ARIN
+
+OrgTechHandle: CKN23-ARIN
+OrgTechName:   No, Contact Known
+OrgTechPhone:  +1-800-555-1234 
+OrgTechEmail:  nobody@example.com
+OrgTechRef:    https://rdap.arin.net/registry/entity/CKN23-ARIN
+
+# end
+
+
+# start
+
+NetRange:       130.206.0.0 - 130.206.255.255
+CIDR:           130.206.0.0/16
+NetName:        RIPE-ERX-130-206-0-0
+NetHandle:      NET-130-206-0-0-1
+Parent:         NET130 (NET-130-0-0-0-0)
+NetType:        Early Registrations, Transferred to RIPE NCC
+OriginAS:       
+Organization:   RIPE Network Coordination Centre (RIPE)
+RegDate:        2003-11-12
+Updated:        2003-11-12
+Comment:        These addresses have been further assigned to users in
+Comment:        the RIPE NCC region.  Contact information can be found in
+Comment:        the RIPE database at http://www.ripe.net/whois
+Ref:            https://rdap.arin.net/registry/ip/130.206.0.0
+
+ResourceLink:  https://apps.db.ripe.net/search/query.html
+ResourceLink:  whois.ripe.net
+
+
+OrgName:        RIPE Network Coordination Centre
+OrgId:          RIPE
+Address:        P.O. Box 10096
+City:           Amsterdam
+StateProv:      
+PostalCode:     1001EB
+Country:        NL
+RegDate:        
+Updated:        2013-07-29
+Ref:            https://rdap.arin.net/registry/entity/RIPE
+
+ReferralServer:  whois://whois.ripe.net
+ResourceLink:  https://apps.db.ripe.net/search/query.html
+
+OrgAbuseHandle: ABUSE3850-ARIN
+OrgAbuseName:   Abuse Contact
+OrgAbusePhone:  +31205354444 
+OrgAbuseEmail:  abuse@ripe.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE3850-ARIN
+
+OrgTechHandle: RNO29-ARIN
+OrgTechName:   RIPE NCC Operations
+OrgTechPhone:  +31 20 535 4444 
+OrgTechEmail:  hostmaster@ripe.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/RNO29-ARIN
+
+# end
+
+
+
+#
+# ARIN WHOIS data and services are subject to the Terms of Use
+# available at: https://www.arin.net/resources/registry/whois/tou/
+#
+# If you see inaccuracies in the results, please report at
+# https://www.arin.net/resources/registry/whois/inaccuracy_reporting/
+#
+# Copyright 1997-2019, American Registry for Internet Numbers, Ltd.
+#
+
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '130.206.0.0 - 130.206.255.255'
+
+% Abuse contact for '130.206.0.0 - 130.206.255.255' is 'seguridad@rediris.es'
+
+inetnum:        130.206.0.0 - 130.206.255.255
+netname:        REDIRIS
+org:            ORG-RA6-RIPE
+descr:          RedIRIS
+descr:          Spanish National R&D Network
+descr:          Madrid, Spain
+country:        ES
+admin-c:        ER494-RIPE
+tech-c:         IRIS1-RIPE
+status:         LEGACY
+remarks:        mail spam reports: seguridad@rediris.es
+remarks:        security incidents: seguridad@rediris.es
+mnt-by:         REDIRIS-NMC
+mnt-by:         RIPE-NCC-LEGACY-MNT
+created:        1970-01-01T00:00:00Z
+last-modified:  2016-04-14T09:59:02Z
+source:         RIPE
+
+organisation:   ORG-RA6-RIPE
+org-name:       Entidad Publica Empresarial Red.es
+org-type:       LIR
+address:        Edificio Bronce                Plaza Manuel Gomez Moreno, s/n
+address:        28020
+address:        Madrid
+address:        SPAIN
+phone:          +34 91 212 76 20
+fax-no:         +34 91 556 88 64
+admin-c:        MAS52-RIPE
+admin-c:        JCR19-RIPE
+admin-c:        AM15278-RIPE
+admin-c:        AP4390-RIPE
+admin-c:        AE1312-RIPE
+admin-c:        ER494-RIPE
+admin-c:        MC1147-RIPE
+admin-c:        IRIS1-RIPE
+tech-c:         IRIS1-RIPE
+abuse-c:        IRIS1-RIPE
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-ref:        REDIRIS-NMC
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         REDIRIS-NMC
+created:        2004-04-17T11:18:06Z
+last-modified:  2018-07-30T09:03:13Z
+source:         RIPE # Filtered
+
+role:           RedIRIS Network Operation Center
+address:        RedIRIS/Red.es
+address:        Edificio Bronce
+address:        Pza. Manuel Gomez Moreno, s/n
+address:        E-28020 Madrid
+address:        SPAIN
+phone:          +34 912127620
+phone:          +34 629148201
+fax-no:         +34 915568864
+admin-c:        ER494-RIPE
+tech-c:         ER494-RIPE
+tech-c:         MC1147-RIPE
+tech-c:         MAS52-RIPE
+tech-c:         AE1312-RIPE
+tech-c:         AM15278-RIPE
+tech-c:         JCR19-RIPE
+nic-hdl:        IRIS1-RIPE
+remarks:        http://www.rediris.es/lared
+abuse-mailbox:  seguridad@rediris.es
+mnt-by:         REDIRIS-NMC
+created:        2002-08-06T12:42:11Z
+last-modified:  2014-01-09T12:23:06Z
+source:         RIPE # Filtered
+
+person:         Esther Robles
+address:        RedIRIS/Red.es
+address:        Edificio Bronce
+address:        Pza. Manuel Gomez Moreno, s/n
+address:        E-28020 Madrid
+phone:          +34 912127620
+fax-no:         +34 915568864
+nic-hdl:        ER494-RIPE
+mnt-by:         REDIRIS-NMC
+created:        1970-01-01T00:00:00Z
+last-modified:  2017-10-30T21:44:29Z
+source:         RIPE # Filtered
+
+% Information related to '130.206.0.0/16AS766'
+
+route:          130.206.0.0/16
+descr:          RedIRIS
+origin:         AS766
+mnt-by:         REDIRIS-NMC
+created:        1970-01-01T00:00:00Z
+last-modified:  2012-03-12T08:12:13Z
+source:         RIPE
+
+% This query was served by the RIPE Database Query Service version 1.95.1 (BLAARKOP)
+
+

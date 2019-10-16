@@ -1,0 +1,19 @@
+Trying "www.telefonica.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 19467
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 2, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;www.telefonica.com.		IN	ANY
+
+;; ANSWER SECTION:
+www.telefonica.com.	300	IN	AAAA	2a02:9009:0:aa:aa01::
+www.telefonica.com.	300	IN	A	194.224.110.41
+
+;; AUTHORITY SECTION:
+telefonica.com.		171245	IN	NS	nsjc8hos01.telefonica-data.com.
+telefonica.com.		171245	IN	NS	ns3chos01.telefonica-data.com.
+
+;; ADDITIONAL SECTION:
+nsjc8hos01.telefonica-data.com.	109 IN	A	213.0.43.37
+
+Received 161 bytes from 130.206.158.253#53 in 29 ms

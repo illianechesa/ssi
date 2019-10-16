@@ -1,0 +1,20 @@
+Trying "www.navalur.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 37334
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 2, ADDITIONAL: 2
+
+;; QUESTION SECTION:
+;www.navalur.com.		IN	ANY
+
+;; ANSWER SECTION:
+www.navalur.com.	247	IN	MX	10 exmx1.directnic.com.
+www.navalur.com.	247	IN	MX	20 exmx2.directnic.com.
+
+;; AUTHORITY SECTION:
+navalur.com.		170267	IN	NS	expired-domain-ns51.directnic.com.
+navalur.com.		170267	IN	NS	expired-domain-ns50.directnic.com.
+
+;; ADDITIONAL SECTION:
+expired-domain-ns50.directnic.com. 273 IN A	74.117.217.22
+expired-domain-ns51.directnic.com. 273 IN A	74.117.222.22
+
+Received 187 bytes from 130.206.158.253#53 in 6 ms

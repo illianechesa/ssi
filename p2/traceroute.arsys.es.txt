@@ -1,0 +1,11 @@
+ 1  s158m2.unavarra.es (130.206.158.2)  5.775 ms  3.155 ms  3.188 ms
+ 2  s158m1.unavarra.es (130.206.158.1)  7.595 ms  8.763 ms  8.561 ms
+ 3  xe4-1-0-53.unavarra.unizar.rt1.ara.red.rediris.es (130.206.195.1)  13.810 ms  13.759 ms  9.591 ms
+ 4  unizar.ae6.telmad.rt4.mad.red.rediris.es (130.206.245.94)  17.634 ms
+    unizar.ae1.uva.rt1.cyl.red.rediris.es (130.206.245.14)  16.672 ms  17.689 ms
+ 5  uva.ae2.ciemat.rt1.mad.red.rediris.es (130.206.245.9)  19.214 ms  18.873 ms
+    telmadi.ae1.ciemat.rt1.mad.red.rediris.es (130.206.245.1)  21.167 ms
+ 6  1and1.alta.espanix.net (185.79.175.174)  19.784 ms  22.417 ms  19.162 ms
+ 7  * * *
+ 8  * * *
+ 9  * * *
