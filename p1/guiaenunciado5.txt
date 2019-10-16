@@ -56,6 +56,7 @@ Email Address []:ospino.p@gmail.com
 
         # Reiniciamos el servidor apache
                 - systemctl restart apache2 
+                - service apache2 restart
 
 ## Segundo Paso:
 
@@ -64,7 +65,7 @@ colocar los certs
                 - mkdir certs   #Creado dentro de apache2
 
         #Crear la llave y el certificado en una misma instrucción
-                - openssl req –new –newkey rsa:2048 –nodes –keyout server.key –out server.csr
+                - openssl req -new -newkey rsa:2048 -days 365 -nodes -x509 -keyout server.key -out server.crt
 
 ## Tercer Paso:
         #Configurar el archivo default-ssl.conf que contiene la configuracion de SSL
@@ -80,3 +81,10 @@ predeterminada.
 ## Quinto Paso:
         #Comprobar la configuracion
                
+
+##
+        He instalado apache2, y lo he lanzado. He creado en un comando tanto el certificado como la clave, que posteriormente los utilizo
+        en el archivo de propiedades "default-ssl.conf". Tambien he modificado el archivo 000-default.conf, ya que nos es imposible conectarnos al servidor.
+        En el arhivo apache2.conf hemos añadido tambien el servername. En los screenshots, se pueden ver todos los cambios realizados, y ademas 
+        hemos comprobado que el puerto 443 este escuchando y que esta reservado para el apache2
+##
