@@ -77,6 +77,11 @@ It was created to facilitate the task in web applications assessments, it's a to
 
 ## Escenarios Montados
 
+Ideas:
+- [Basico] Probar con webs aleatoriamente.
+- [Avanzado] Scrapper tester. -> Fuzz webs una a una y guardar los datos resultantes y analizarlos.
+  - Así el scrapper vá adquiriendo mas y mas webs.
+
 
 ## Bibliografía
 
