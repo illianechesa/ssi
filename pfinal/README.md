@@ -84,3 +84,4 @@ It was created to facilitate the task in web applications assessments, it's a to
 - [Fuzzing wikipedia](https://en.wikipedia.org/wiki/Fuzzing)
 - [American fuzzy lop](https://en.wikipedia.org/wiki/American_fuzzy_lop_(fuzzer))
 - [WFuzz Code - Opensource tool](https://github.com/xmendez/wfuzz/)
+- [WFuzz Documentation](https://wfuzz.readthedocs.io/en/latest/)
