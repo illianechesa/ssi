@@ -82,6 +82,9 @@ ssh ssi29@192.168.56.102
 ### Ataques de login
 
 
+> Necesario realizar cambio de ip para la máquina de hydra
+> sudo ifconfig eth0 192.168.56.103, los otros tienen la 101 y 102.
+
 Instalar hydra
 - NAT network configuration
 - sudo apt-get update
@@ -106,15 +109,38 @@ crunch 3 3 > dict.txt # Fuerza bruta de todas conbinaciones de 3 caracteres
 
 ### Defensas
 
-- Configure que solo algunos usuarios puedan entrar
-- Pruebe a cambiar el puerto del servidor de ssh
+- [ ] Configure que solo algunos usuarios puedan entrar
+- [ ] Pruebe a cambiar el puerto del servidor de ssh
   - Search for port in nano -w /etc/ssh/ssh_config
   - Port 889, different
-- Deshabilitar root login
-- Passwordless login - with ssh-keygen
-- Disable empty password
+- [ ] Deshabilitar root login
+- [ ] Passwordless login - with ssh-keygen
+  - Disable empty password
 - [ ] Pruebe a cambiar los parñametros de ssh que afectan a la velocidad con que un atacante puede intentar contraseñas
 
+
+- Pruebe a cambiar los parametros de seg que afectan a la velocidad con que un atacante puede intentar contraseñas.
+```
+> sudo nano -w /etc/ssh/sshd_config
+...
+LoginGraceTime 120 # Bajado a 10 y dá error
+...
+```
+
+> 120 indica el número de segundos en que la pantalla de login estará disponible.
+> Bajamos el número de segundos para que no pueda estar una pantalla abierta.
+
+- Pruebe a buscar instalar y configurar monitores de login que corten el acceso a quien haga varios intentos de acceso fallidos.
+```
+> sudo nano -w /etc/ssh/sshd_config
+...
+MaxAuthTries 2
+...
+```
+
+- Port-Knocking
+
+> https://www.linuxbabe.com/security/secure-ssh-service-ort-knocking-debian-ubuntu.
 
 
 
