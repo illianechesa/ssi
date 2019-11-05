@@ -1,0 +1,13 @@
+# Status Codes
+- 100 = Continuar
+- 200 = OK
+- 201 = Creado
+- 202 = Aceptado
+- 204 = Sin contenido
+- 301 = Permanentemente re dirigido o movido.
+- 302 = Temporalmente re dirigido o movido.
+- 400 = Solicitud incorrecta.
+- 401 = Requiere autorización.
+- 403 = Prohibido.
+- 404 = No se encuentra.
+- 500 = Error crítico en el servidor.
