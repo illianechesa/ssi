@@ -95,11 +95,12 @@ Instalar hydra
 hydra -l root -p admin 192.168.1.105 -t 4 ssh
 hydra -l user_name -p single_password ip -t n_threads server_type_it_will_attack
 ```
-- -l
-- -L users list
-- -p
-- -P word list en vez de una sola contraseña
-- -t
+
+- -l 
+- -L # Listado de usuarios
+- -p # Contraseña con la que vamos a probar
+- -P # Lista de posibles contraseñas word list en vez de una sola contraseña
+- -t # Numero de hilos
 
 ```sh
 hydra -l ssi29 -p dict.txt 192.168.56.102 -t 4 ssh # Diccionario con todas las palabras para probar
