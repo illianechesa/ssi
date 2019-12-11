@@ -1,1 +1,3 @@
 wfuzz.code
+.venv
+.direnv
